@@ -1,0 +1,95 @@
+{
+    "prefix": "api-docs",
+    "routers": [
+        {
+            "router": "AuthRouter",
+            "description": "Api for AuthController",
+            "name":"AuthController",
+            "status":true
+        },
+        {
+            "router": "BlogRouter",
+            "description": "Api for BlogController",
+            "name":"BlogController",
+            "status":true
+        },
+        {
+            "router": "BrandRouter",
+            "description": "Api for BrandController",
+            "name":"BrandController",
+            "status":true
+        },
+        {
+            "router": "CategoryRouter",
+            "description": "Api for CategoryController",
+            "name":"CategoryController",
+            "status":true
+        },
+        {
+            "router": "CategoryProductRouter",
+            "description": "Api for CategoryProductController",
+            "name":"CategoryProductController",
+            "status":true
+        },
+        {
+            "router": "FormRouter",
+            "description": "Api for FormController",
+            "name":"FormController",
+            "status":true
+        },
+        {
+            "router": "MediaRouter",
+            "description": "Api for MediaController",
+            "name":"MediaController",
+            "status":true
+        },
+        {
+            "router": "PermissionRouter",
+            "description": "Api for PermissionController",
+            "name":"PermissionController",
+            "status":true
+        },
+        {
+            "router": "ProductRouter",
+            "description": "Api for ProductController",
+            "name":"ProductController",
+            "status":true
+        },
+        {
+            "router": "RetailerRouter",
+            "description": "Api for RetailerController",
+            "name":"RetailerController",
+            "status":true
+        },
+        {
+            "router": "RoleRouter",
+            "description": "Api for RoleController",
+            "name":"RoleController",
+            "status":true
+        },
+        {
+            "router": "SupplierRouter",
+            "description": "Api for SupplierController",
+            "name":"SupplierController",
+            "status":true
+        },
+        {
+            "router": "SystemRouter",
+            "description": "Api for SystemController",
+            "name":"SystemController",
+            "status":true
+        },
+        {
+            "router": "UserRouter",
+            "description": "Api for UserController",
+            "name":"UserController",
+            "status":true
+        },
+        {
+            "router": "TrendingProductRouter",
+            "description": "Api for TrendingProductController",
+            "name":"TrendingProductController",
+            "status":false
+        }
+    ]
+}

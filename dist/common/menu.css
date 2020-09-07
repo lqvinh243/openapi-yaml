@@ -1,0 +1,39 @@
+.list-group{
+    list-style: none;
+    text-decoration: none;
+}
+
+ul{
+    padding: 0;
+}
+
+.list-group > .list-group-item{
+    padding:0.5rem;
+}
+.list-group-item{
+    justify-content: space-between!important;
+    align-items: center!important;
+    display: flex!important;
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+}
+.list-group-item:first-child{
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+
+.list-group > .list-group-item > a{
+    font-size: 1.2rem;
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+
+}
+
+.download-url-wrapper{
+    display: none!important;
+}
